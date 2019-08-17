@@ -1,0 +1,17 @@
+/* css style reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+ul {
+    list-style-type: none;
+}
+body {
+    background: grey;
+}
+a {
+    text-decoration: none;
+}

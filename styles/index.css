@@ -1,0 +1,52 @@
+@import 'reset.css';
+
+
+
+/** 
+ * Top header 
+ */
+#top-header {
+    height: 60px;
+    background-color: yellow;
+}
+
+/** 
+ * Middle part 
+ */
+#container {
+    background: pink;
+    min-height: 100%;
+    max-width: 1000px;
+    min-width: 600px;
+    margin: 0 auto;
+}
+.image-header {
+    height: 400px; 
+    background: blue;
+}
+.main-section {
+    overflow: hidden;
+    padding-bottom: 200px;
+    display: flex;
+}
+.item-nav {
+    width: 300px;
+    background: red;
+    flex-grow: 0;
+}
+.item-list{
+    width: auto;
+    background: green;
+    flex-grow: 1;
+}
+
+/** 
+ * footer 
+ */
+#footer {
+    height: 200px;
+    background-color: black;
+    margin-top: -200px;
+    position: relative;
+    clear: both;
+}
